@@ -13,6 +13,6 @@
 Después de estudiar a detalle el [Ejemplo 01](/../../tree/master/Sesion-01/Ejemplo-01/) realiza lo que se te pide en cada uno de los siguientes puntos:
 
 - Genera un proyecto con Android Studio para kotlin desde cero.
-- En el proyecto generado y haciendo uso de Android Extensions, haa una referencia al textView que está por defecto en la vista y cambia su propiedad **text** a "HOLA BEDU!".
+- En el proyecto generado y haciendo uso de Android Extensions, haz una referencia al textView que está por defecto en la vista y cambia su propiedad **text** a "HOLA BEDU!".
 - Recordando las principales herramientas, usa la que habíamos marcado con el numero 8 (AVD Manager) para crear un nuevo dispositivo virtual, sigue todos los pasos y una vez creado ejecútalo (tranquilo, no va a ser dificil).
 - Una vez que está en ejecución, el dispositivo virtual que acabas de crear, ejecuta tu aplicación, adjunta un screenshot del resultado.
