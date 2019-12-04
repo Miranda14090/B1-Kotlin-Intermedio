@@ -22,7 +22,7 @@ Todos los proyectos de android tienen que tener un manifiesto, este siempre esta
 - Los permisos que necesita la aplicacion.
 - Las funciones de hardware y software que requiere la aplicacion.
 
-#### Las sigientes secciones describen algunas de las partes mas importantes del manifiesto:
+#### Las siguientes secciones describen algunas de las partes mas importantes del manifiesto:
 
 ### Nombre del paquete e ID de la aplicacion
 
