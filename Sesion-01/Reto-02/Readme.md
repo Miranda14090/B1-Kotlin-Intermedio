@@ -1,27 +1,27 @@
- 
+## Reto 02: Cual es el objetivo de tener un Manifiesto - Kotlin Intermedio
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks] 
-	
-## Titulo del Ejemplo 
+### OBJETIVO
 
-### OBJETIVO 
+- Que el alumno comprenda el porque es importante y necesario tener un manifiesto (Manifest) de nuestras aplicaciones siempre.
 
-- Lo que esperamos que el alumno aprenda 
+### REQUISITOS
 
-#### REQUISITOS 
+1. Tener conocimiento previo sobre IDE's y entornos de desarrollo.
+2. Tener Instalado Android Studio, se puede descargar desde este [link](https://developer.android.com/studio).
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+### DESARROLLO
 
-#### DESARROLLO
+En este reto encontraras un archivo AndroidManifest.XML sobre el cual tendras que completar los siguienets puntos:
 
-Agrega las instrucciones generales del ejemplo o reto
-
-<details>
-
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details> 
-
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
-
+- con los elementos que tiene el archivo actualmente usa los comentarios en XML (<!-- comment -->) para describir cada elemento declarado.
+- Declara por lo menos tres permisos de esta lista de permisos: 
+	- BLUETOOTH
+	- NFC
+	- CAMERA
+	- SEND_SMS
+	- READ_CONTACTS
+- declara por lo menos 3 funcones fisicas o de software de esta lista:
+	- audio.low_latency
+	- microphone
+	- camera
+	- fingerprint
