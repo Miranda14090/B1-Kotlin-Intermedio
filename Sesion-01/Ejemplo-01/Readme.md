@@ -79,11 +79,11 @@ Por lo cual para hacer referencia a la instancia de ese elemento dentro de nuest
 1. Explorador: Aqui podemos encontrar los archivos de nuestro proyecto.
 2. Consola/Terminal: En este apartado encotramos la terminal y la consola donde podremos ver los outputs de la ejecucion de nuestro codigo.
 3. Configuraciones de crecion: Desde aqui podemos editar las build configurations (Mas adelante aprenderemos sobre el tema), seleccionar el dispositivo ya sea virtual o fisico en el cual ejecutaremos nuestra aplicacion.
-4. Encontramos los controles de ejecucion, reinicio, debug etc...
+4. Controles de ejecucion:, reinicio, debug etc...
 5. Esta herramienta nos abrira una ventana en donde pordremos ver/configurar mas detalles sobre la estructura de nuestro proyecto.
-6. Esta consola nos permitira ejecutar cualquier comando, ejemplo: abrir un nuevo proyectio o archivo.
-7. Esta herramineta sincroniza nuestro proyecto con las configuraciones de **gradle**.
-8. Esta es una de las herramientas mas importantes pues desde aqui podremos crear dispositivos virtuales para poder probar nuestras aplicaciones sin necesidad de tener un dispositivo real.
-9. Desde esta herramienta podemos gestionar todo lo relacionado con el SDK (Software Development Kit).
+6. Run Anything: Esta consola nos permitira ejecutar cualquier comando, ejemplo: abrir un nuevo proyectio o archivo.
+7. Sync Project: sta herramineta sincroniza nuestro proyecto con las configuraciones de **gradle**.
+8. AVD Manager: Esta es una de las herramientas mas importantes pues desde aqui podremos crear dispositivos virtuales para poder probar nuestras aplicaciones sin necesidad de tener un dispositivo real.
+9. SDK Manager: Desde esta herramienta podemos gestionar todo lo relacionado con el SDK (Software Development Kit).
 
 Ahora que hemos visto la estructura de un proyecto, la creacion de uno desde cero y las principales herramientas de Android Studio, ve al [Reto 01](/../../tree/master/Sesion-01/Reto-01/) y completa los puntos que se te piden.
