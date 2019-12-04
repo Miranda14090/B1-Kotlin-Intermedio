@@ -6,7 +6,7 @@
 
 #### ORGANIZACION DE LA CLASE 
 
-- Tema que veran en el ejemplo
+- Temas de la sesión
 
 	- [Ejemplo 01](Ejemplo-01): Android Studio y sus principales herramientas & Estructura de un proyecto Android.
 	- [Reto 01](Reto-01)
