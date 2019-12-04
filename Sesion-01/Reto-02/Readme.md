@@ -11,7 +11,7 @@
 
 ### DESARROLLO
 
-En este reto encontrarás un archivo AndroidManifest.XML sobre el cual tendrás que completar los siguienets puntos:
+En este reto encontrarás un archivo AndroidManifest.XML sobre el cual tendrás que completar los siguientes puntos:
 
 - Con los elementos que tiene el archivo actualmente, usa los comentarios en XML (<!-- comment -->) para describir cada elemento declarado.
 - Declara por lo menos tres permisos de esta lista de permisos: 
