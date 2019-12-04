@@ -13,7 +13,7 @@
 
 Es importante saber que existe una infinidad de codigo creado por otros desarrolladores que podemos utilizar en nuestros desarrollos, librerias privadas o de código abierto, esto es muy útil ya que no permite ahorrarnos mucho código.
 
-Por el momento, solo es necesario que sepas que para incluir codigo de terceros en nuestros desarrallos podemos agregarlos en nuestro archivo **build.gradle: (Module: app)** colocando la referencia de la libreria que queremos incluir.
+Por el momento, solo es necesario que sepas que para incluir codigo de terceros en nuestros desarrollos podemos agregarlos en nuestro archivo **build.gradle: (Module: app)** colocando la referencia de la libreria que queremos incluir.
 
 En la imagen de ejemplo verás que en el objeto **dependencies** estan declaradas estas con la palabra reservada **implementation** seguido del nombre de la libreria y su versión
 
