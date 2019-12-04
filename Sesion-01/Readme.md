@@ -2,7 +2,7 @@
 
 ### OBJETIVOS 
 
-- Reconocer el IDE Android Studio con el que se desarrollan aplicaciones móviles. Además,  conocer la estructura de un proyecto android y todos los rachivos generados por el IDE
+- Reconocer el IDE Android Studio con el que se desarrollan aplicaciones móviles. Además,  conocer la estructura de un proyecto android y todos los archivos generados por el IDE
 
 #### ORGANIZACION DE LA CLASE 
 
