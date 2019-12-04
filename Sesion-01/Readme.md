@@ -13,5 +13,4 @@
 	- [Ejemplo 02](Ejemplo-02): Cual es el objetivo de tener un Manifiesto.
 	- [Reto 02](Reto-02)
 	- [Ejemplo 03](Ejemplo-03): Cómo incluir librerías de terceros (Básico).
-	- [Reto 03](Reto-03)
 
