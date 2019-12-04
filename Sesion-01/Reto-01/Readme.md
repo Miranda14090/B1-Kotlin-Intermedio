@@ -1,27 +1,19 @@
- 
+ ## Reto 01: Android Studio y sus principales herramientas & Estructura de un proyecto Android - Kotlin Intermedio
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks] 
-	
-## Titulo del Ejemplo 
+### OBJETIVO
 
-### OBJETIVO 
+- Que el alumno comozca el entorno de desarrollo en el que se crearan aplicaciones para android con kotlin asi como tambien conocer la estructura de directorios y archivos generados por el IDE para un proyecto Android.
 
-- Lo que esperamos que el alumno aprenda 
+### REQUISITOS
 
-#### REQUISITOS 
+1. Tener conocimiento previo sobre IDE's y entornos de desarrollo.
+2. Tener Instalado Android Studio, se puede descargar desde este [link](https://developer.android.com/studio).
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+### DESARROLLO
 
-#### DESARROLLO
+Habiendo completado el [Ejemplo 01](/../../tree/master/Sesion-01/Ejemplo-01/) realiza lo que se te pide en cada uno de los siguientes puntos:
 
-Agrega las instrucciones generales del ejemplo o reto
-
-<details>
-
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details> 
-
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
-
+- Genera un proyecto con Android Studio para kotlin desde cero.
+- En el proyecto henerado y haciendo uso de Android Extensions has una referencia al textView que esta por defecto en la vista y cambia su propiedad **text** a "HOLA BEDU!".
+- Recordando las principales herramientas usa la que habiamos marcado con el numero 8 (AVD Manager) para crear un nuevo dispositivo virtual, sigue todos los pasos y una vez creado ejecutalo (tanquilo, no va a ser dificil).
+- Una vez que este en ejecucion el dispositivo virtual que acabas de crear, ejecuta tu aplicacion, adjunta un secreenshot del resultado.
