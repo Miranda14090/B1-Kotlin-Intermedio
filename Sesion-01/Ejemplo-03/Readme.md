@@ -19,4 +19,4 @@ En la imagen de ejemplo verás que en el objeto **dependencies** estan declarada
 
 ![](https://github.com/beduExpert/B1-Kotlin-Intermedio/blob/master/Sesion-01/Ejemplo-03/Images/1.png)
 
-Este ejemplo no tiene reto puesto que mas adelante veremos a detalle la integracion de librerias de terceros en nuestros proyectos, no obstante te recomiendo que revises la siguiente [documentacion](https://docs.gradle.org/current/userguide/userguide.html) para que te des una idea de como es que funciona gradle con Android Studio 3.+, [este](https://developer.android.com/studio/build?hl=es) articulo tambien te sera util ya que en el se explican las fases de configuracion de tu proyecto.
+Este ejemplo no tiene reto puesto que mas adelante veremos a detalle la integración de librerias de terceros en nuestros proyectos. No obstante es recomendable que revises la siguiente [documentacion](https://docs.gradle.org/current/userguide/userguide.html) para que te des una idea de cómo es que funciona gradle con Android Studio 3.+, [este](https://developer.android.com/studio/build?hl=es) artículo también te será útil ya que en el se explican las fases de configuración de tu proyecto.
