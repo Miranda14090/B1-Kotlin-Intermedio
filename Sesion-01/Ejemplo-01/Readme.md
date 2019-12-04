@@ -77,7 +77,7 @@ Por lo cual para hacer referencia a la instancia de ese elemento dentro de nuest
 ![](https://github.com/beduExpert/B1-Kotlin-Intermedio/blob/master/Sesion-01/Ejemplo-01/Images/8.png)
 
 1. **Explorador**: Aqui podemos encontrar los archivos de nuestro proyecto.
-2. Consola/Terminal: En este apartado encotramos la terminal y la consola donde podremos ver los outputs de la ejecucion de nuestro codigo.
+2. **Consola/Terminal**: En este apartado encotramos la terminal y la consola donde podremos ver los outputs de la ejecucion de nuestro codigo.
 3. **Configuraciones de creación**: Desde aquí podemos editar las build configurations (Más adelante aprenderemos sobre el tema), seleccionar el dispositivo ya sea virtual o físico en el cual ejecutaremos nuestra aplicacion.
 4. Encontramos los controles de ejecución, reinicio, debug etc...
 5. Esta herramienta nos abrirá una ventana en donde podremos ver/configurar más detalles sobre la estructura de nuestro proyecto.
