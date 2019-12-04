@@ -2,7 +2,8 @@
 ## Módulo: Kotlin Intermedio
 
 ### OBJETIVO 
- - Que el alumno logre desarrollar una aplicacion para administrar y gestionar notas personales (TODO APP) por medio de la implementacion de las diferentes tipos de vistas y componentes visuales del sistema operativo Android, al terminar este modulo el alumno sera capaz de desarrollar aplicaciones moviles en un nivel intermedio para Android con kotlin.
+
+ - Desarrollar aplicaciones móviles utilizando las bases de Material Design con la implementación de los componentes y estructuras propuestas por Android con Kotlin en la creación de Layouts, Activities y Fragments con distintos medios de interacción con el usuario haciendo uso de dependencias.  
 
  ### ORGANIZACIÓN DE MÓDULO 
  
