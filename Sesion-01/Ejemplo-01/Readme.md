@@ -38,12 +38,12 @@ A continuación, crearemos un proyecto android - kotlin desde cero con Android S
 ![](https://github.com/beduExpert/B1-Kotlin-Intermedio/blob/master/Sesion-01/Ejemplo-01/Images/5.png)
 
 - **manifest**: Contiene el archivo AndroidManifest.xml.
-- java: Contiene los archivos Java o en este caso Kotlin de código fuente separados por nombres de paquetes, incluido el código de prueba JUnit.
+- **java**: Contiene los archivos Java o en este caso Kotlin de código fuente separados por nombres de paquetes, incluido el código de prueba JUnit.
 - **res**: Contiene todos los recursos sin código, como diseños XML, strings de IU y también imágenes de mapa de bits, divididos en subdirectorios pertinentes. Para obtener más información sobre todos los tipos de recursos disponibles, consulta Provisión de recursos.
 	- **drawable**: Archivos de mapas de bits (.png, .9.png, .jpg y .gif) o archivos XML que se han compilado en los siguientes subtipos de recursos de elemento de diseño.
 	- **layout**: Archivos XML que definen el diseño de una interfaz de usuario. Consulta la sección Recurso de diseño.
 	- **mipmap**: Archivos de elementos de diseño para diferentes densidades de los íconos de selectores. Para obtener más información sobre la administración de los íconos de selectores con carpetas mipmap/, consulta la sección Información general sobre la administración de proyectos.
-	- values: Archivos XML que contienen valores simples, como strings, valores enteros y colores.
+	- **values**: Archivos XML que contienen valores simples, como strings, valores enteros y colores.
 
 >Una vez entendida la estructura del proyecto abrimos el archivo **MainActivity.kt**
 
