@@ -5,7 +5,7 @@
 
 #### REQUISITOS 
 
-* Android Studio instalado
+* Android Studio
 
 
 #### DESARROLLO
