@@ -1,4 +1,4 @@
-## Reto 02: Sistema de diseño en Android - Kotlin Intermedio
+## Reto 01: Sistema de diseño en Android - Kotlin Intermedio
 
 ### OBJETIVO
 
