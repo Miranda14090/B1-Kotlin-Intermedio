@@ -14,19 +14,21 @@
 
 #### Sistema de diseño de Android
 
-Android proporciona un rico sistema de diseño que nos permite controlar la apariencia de todas las vistas de nuestra aplicación. Puedes usar temas estilos y ver atributos para afectar directamente el diseño. El diagrama que veremos a continuación resume en la presidencia de cada método de estilo.
+Android proporciona un rico sistema de diseño que nos permite controlar la apariencia de todas las vistas de nuestra aplicación. Puedes usar temas, estilos y ver atributos, para afectar directamente el diseño. 
+
+El diagrama que veremos a continuación resume en la presidencia de cada método de estilo.
 
 ![](https://github.com/beduExpert/B1-Kotlin-Intermedio/blob/master/Sesion-05/Ejemplo-02/Images/1.png)
 
-En este diagrama podemos ver el orden en el que el sistema aplican los métodos de estilo, de abajo hacia arriba por ejemplo, si establece el tamaño del texto en el tema y luego se establece el tamaño del texto de manera diferente los atributos de la vista, los atributos de la vista anularán el estilo del tema.
+En este diagrama podemos ver el orden en el que el sistema aplica los métodos de estilo, de abajo hacia arriba por ejemplo, si establece el tamaño del texto en el tema y luego se establece el tamaño del texto de manera diferente los atributos de la vista, los atributos de la vista anularán el estilo del tema.
 
 En Android tal como lo habíamos visto con nuestro sistema de vistas también en los archivos que tienen que ver con el sistema de diseño van a utilizar XML Para definir nuestros estilos configurar nuestro tema y configurar los atributos de nuestras vistas.
 
 #### Atributos
 
-Se recomienda que se utilicen los atributos sólo para especificar estilos únicos a una vista es decir si tenemos siete botones por ejemplo en una vista en la sección de estilos podemos diseñar el correspondiente a todos los botones en general pero si queremos que un solo botón se vea diferente O tenga alguna diferencia especial a los demás ese estilo se lo vamos a dar utilizando sus atributos.
+Se recomienda que se utilicen los atributos sólo para especificar estilos únicos a una vista. Es decir, si tenemos siete botones por ejemplo en una vista en la sección de estilos, podemos diseñar el correspondiente a todos los botones en general. Pero si queremos que un solo botón se vea diferente o tenga alguna diferencia especial a los demás, ese estilo se lo vamos a dar utilizando sus atributos.
 
->Esta es una definición de un Tex View en una de nuestras vistas, como puedes ver los elementos dentro de la definición del Text View son los atributos, echa un vistazo y podrás encontrar que además de tener su identificador también tiene como atributo el color el texto y mas atributos que por ahora no es necesario que no enfoquemos en tales.
+>Esta es una definición de un Tex View en una de nuestras vistas.C omo puedes ver los elementos dentro de la definición del Text View son los atributos. Echa un vistazo y podrás encontrar que además de tener su identificador, también tiene como atributo el color el texto y mas atributos que por ahora no es necesario que no enfoquemos en tales.
 ```XML
 <TextView
 	android:id="@+id/textViewIntro"
@@ -41,7 +43,7 @@ Se recomienda que se utilicen los atributos sólo para especificar estilos únic
 	app:layout_constraintStart_toStartOf="parent"
 	app:layout_constraintTop_toTopOf="parent" />
 ```
-Es importante que recuerdes que todos absolutamente todos los elementos definidos en nuestros archivos de vista tienen una gran cantidad de atributos para modificar su ubicación en la pantalla su distribución y su estilo.
+Es importante que recuerdes que todos, absolutamente todos los elementos definidos en nuestros archivos de vista tienen una gran cantidad de atributos para modificar su ubicación en la pantalla su distribución y su estilo.
 
 #### Estilos
 
