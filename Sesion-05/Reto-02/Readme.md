@@ -1,4 +1,4 @@
-## Reto 03: Configurando material Design - Kotlin Intermedio
+## Reto 02: Configurando material Design - Kotlin Intermedio
 
 ### OBJETIVO
 
