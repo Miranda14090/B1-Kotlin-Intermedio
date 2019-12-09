@@ -2,7 +2,7 @@
 
 ### OBJETIVO 
 
-- Que el alumno aprenda a reemplazar un Fragmento
+- Reemplazar un Fragmento
 
 #### REQUISITOS 
 
