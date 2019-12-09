@@ -1,141 +1,60 @@
- ## Reto: Contador regresivo
+ ## Fragments múltiples
 
 ### OBJETIVO 
 
-- Que el alumno demuestre los conocimientos adquiridos acerca de los ciclos de vida de un Activity.
+- Que el alumno aprenda a reemplazar un Fragmento
 
 #### REQUISITOS 
 
-1. Haber terminado el [Ejemplo 02](/../../tree/master/Sesion-03/Ejemplo-02) de esta sesión
-
+1. Haber terminado el [Ejemplo 03](/../../tree/master/Sesion-03/Ejemplo-03) de esta sesión
 
 #### DESARROLLO
 
-Para este ejercicio se pretende iniciar un contador en una activiad con diferentes casos
+Crear un nuevo Fragment para reemplazar con el método replace del Transaction el actual Fragment. El método a utilizar es replace, y se emplea de la misma forma que add, pero reemplaza el segundo parámetro por **R.id.fragment2_container** . Copia el código del Fragment actual, pero cambia su nombre a Fragment2 tanto al archivo como al nombre de la clase. Como consejo, modifica un poco el texto de cada método del ciclo de vida para poder diferenciar de donde viene cada mensaje al momento de consultar el log. 
 
-a) El contador sólo se debe iniciar al abrir la aplicación y se debe finalizar cuando se cierre o se minimice.
-b) El contador se debe iniciar cada vez que la aplicación sea puesta en primer plano y finalizada cuando se cierre o se minimice.
-c) El contador sólo se debe iniciar al abrir la aplicación y se debe finalizar únicamente cuando la app se cierre.
-
-Para comenzar el proyecto, estos son los pasos: 
-
-1.- Crear un proyecto con un Empty Activity
-
-2.- El Nombre del proyecto debe ser **RetoCounter** y el package name **org.bedu.retocounter**
-
-3.- El código de MainActivity debe ser reemplazado por es siguiente código: 
+También se debe crear un nuevo layout (en el directorio homónimo) para este Fragment. Nómbralo fragment2.xml y ponle el siguiente código: 
 ```
-package org.bedu.retocounter
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/fragment2_container">
 
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
-import android.os.CountDownTimer
-import android.util.Log
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Fragment segundo" />
 
+</LinearLayout>
+```
 
+Al código del Activity en el ejemplo anterior, agregar esta dependencia
 
-class MainActivity : AppCompatActivity() {
- private lateinit var timer: CountDownTimer
-    val TAG = "TIMER";
+>import android.widget.Button
 
-    private fun setTimer(){
+esta sentencia es un método que se llama cuando e botón que aparece en el Acctivity es pulsado (se abordará este tema con más detalle después).
 
-        timer = object: CountDownTimer(20000, 1000) {
-            override fun onTick(millisUntilFinished: Long) {
-                val seconds = millisUntilFinished/1000;
-                Log.d(TAG,"Tiempo restante: $seconds")
-            }
-
-            override fun onFinish() {
-                Log.d(TAG,"Contador finalizado")
-            }
+```
+val button = findViewById<Button>(R.id.button_fragment);
+        button.setOnClickListener {
+            //AQUÍ VA EL CÓDIGO A INTRODUCIR
         }
-        timer.start()
-    }
-
-    private fun stopTimer(){
-        timer.cancel()
-        Log.d(TAG,"timer cancelado")
-    }
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-    }
-}
 ```
-
-no es necesario comprender los métodos implementados, por ahora basta saber que para iniciar o parar el contador, se usan estos métodos:
-```
-startTimer()
-stopTimer()
-```
-
-4.- La ventana de log debe estar configurada de esta manera para poder visualizarla:
-
-![](https://github.com/beduExpert/B1-Kotlin-Intermedio/blob/master/Sesion-03/Reto-02/01.png)
-
-5.- Avanzar a otro caso implica ya haber resuelto el anterior.
-
 
 <details>
 	<summary>Solucion</summary>
-	<p> Caso a): </p>
 	
 ```
-override fun onCreate(savedInstanceState: Bundle?) {
-   super.onCreate(savedInstanceState)
-   setContentView(R.layout.activity_main)
-
-   setTimer()
- }
- 
-override fun onStop(){
-   super.onStop()
-
-   stopTimer()
- }
-    
- override fun onDestroy(){
-   super.onStop()
-
-   stopTimer()
-    }
+val newFragment = Fragment2() //llamando al nuevo fragmento
+val transaction = supportFragmentManager.beginTransaction() //obteniendo el objeto Transaction
+transaction.replace(android.R.id.content, newFragment) //reemplazando el viejo fragment con el nuevo
+transaction.addToBackStack(null) //añadiendo la Transacción a un stack
+transaction.commit() //ejecutando los cambios
 ```
 
-	<p> Caso b): </p>
-
-```
-override fun onResume() {
-   super.onResume()
-
-   setTimer()
- }
- 
-override fun onStop(){
-   super.onStop()
-
-   stopTimer()
- }
-```
-
-	<p> Caso c): </p>
-
-```
-override fun onCreate(savedInstanceState: Bundle?) {
-   super.onCreate(savedInstanceState)
-   setContentView(R.layout.activity_main)
-
-   setTimer()
- }
-    
- override fun onDestroy(){
-   super.onStop()
-
-   stopTimer()
-    }
-```
-	
 </details> 
 
 
