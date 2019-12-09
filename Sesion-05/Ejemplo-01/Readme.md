@@ -35,4 +35,4 @@ A medida que trabajamos en la aplicación es para un público más amplio. Es es
 
 Ahora que ya tenemos claro que un buen diseño es la forma más importante de hacer que los usuarios usen las aplicaciones que creamos y ahora que ya conocemos los fundamentos del diseño de aplicaciones para Android. Veamos qué parte de nuestra aplicación tenemos que editar, modificar o crear que impacta directamente en el diseño de nuestra aplicación. 
 
-Vayamos al [Ejemplo 02](/../../tree/master/Sesion-05/Ejemplo-01/) para empezar a configurar nuestros diseños y estilos de nuestra aplicación Android.
+Vayamos al [Reto 01](/../../tree/master/Sesion-05/Reto-01/) para empezar a configurar nuestros diseños y estilos de nuestra aplicación Android.
