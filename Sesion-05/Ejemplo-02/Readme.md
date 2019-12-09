@@ -16,19 +16,19 @@
 
 Android proporciona un rico sistema de diseño que nos permite controlar la apariencia de todas las vistas de nuestra aplicación. Puedes usar temas, estilos y ver atributos, para afectar directamente el diseño. 
 
-El diagrama que veremos a continuación resume en la presidencia de cada método de estilo.
+El diagrama que veremos a continuación resume la presedencia de cada método de estilo.
 
 ![](https://github.com/beduExpert/B1-Kotlin-Intermedio/blob/master/Sesion-05/Ejemplo-02/Images/1.png)
 
-En este diagrama podemos ver el orden en el que el sistema aplica los métodos de estilo, de abajo hacia arriba por ejemplo, si establece el tamaño del texto en el tema y luego se establece el tamaño del texto de manera diferente los atributos de la vista, los atributos de la vista anularán el estilo del tema.
+En el diagrama podemos ver el orden en el que el sistema aplica los métodos de estilo. De abajo hacia arriba por ejemplo, si establece el tamaño del texto en el tema y luego se establece el tamaño del texto de manera diferente, los atributos de la vista, los atributos de la vista anularán el estilo del tema.
 
-En Android tal como lo habíamos visto con nuestro sistema de vistas también en los archivos que tienen que ver con el sistema de diseño van a utilizar XML Para definir nuestros estilos configurar nuestro tema y configurar los atributos de nuestras vistas.
+En Android ,tal como lo habíamos visto con nuestro sistema de vistas, también en los archivos que tienen que ver con el sistema de diseño van a utilizar XML. Para definir nuestros estilos, configurar nuestro tema, y configurar los atributos de nuestras vistas.
 
 #### Atributos
 
-Se recomienda que se utilicen los atributos sólo para especificar estilos únicos a una vista. Es decir, si tenemos siete botones por ejemplo en una vista en la sección de estilos, podemos diseñar el correspondiente a todos los botones en general. Pero si queremos que un solo botón se vea diferente o tenga alguna diferencia especial a los demás, ese estilo se lo vamos a dar utilizando sus atributos.
+Se recomienda que se utilicen los atributos sólo para especificar estilos únicos a una vista. Es decir, si tenemos siete botones por ejemplo en una vista en la sección de estilos, podemos diseñar el correspondiente a todos los botones en general. Pero si queremos que un solo botón se vea diferente, o tenga alguna diferencia especial a los demás, ese estilo se lo vamos a dar utilizando sus atributos.
 
->Esta es una definición de un Tex View en una de nuestras vistas.C omo puedes ver los elementos dentro de la definición del Text View son los atributos. Echa un vistazo y podrás encontrar que además de tener su identificador, también tiene como atributo el color el texto y mas atributos que por ahora no es necesario que no enfoquemos en tales.
+>Esta es una definición de un Tex View en una de nuestras vistas. Como puedes ver los elementos dentro de la definición del Text View son los atributos. Echa un vistazo y podrás encontrar que además de tener su identificador, también tiene como atributo el color, el texto y más atributos que por ahora no es necesario que no enfoquemos en tales.
 ```XML
 <TextView
 	android:id="@+id/textViewIntro"
@@ -43,13 +43,13 @@ Se recomienda que se utilicen los atributos sólo para especificar estilos únic
 	app:layout_constraintStart_toStartOf="parent"
 	app:layout_constraintTop_toTopOf="parent" />
 ```
-Es importante que recuerdes que todos, absolutamente todos los elementos definidos en nuestros archivos de vista tienen una gran cantidad de atributos para modificar su ubicación en la pantalla su distribución y su estilo.
+Es importante que recuerdes que todos, absolutamente todos los elementos definidos en nuestros archivos de vista, tienen una gran cantidad de atributos para modificar su ubicación en la pantalla, su distribución y su estilo.
 
 #### Estilos
 
-Los estilos son usados para crear una colección de definiciones de estilo reutilizable, es decir como lo mencionábamos en el tema anterior si queremos Que todos los botones de nuestra aplicación sean exactamente iguales en cuanto estilo se refiere este estilo lo vamos a definir en un archivo global por decirlo de alguna forma llamado Styles si te das cuenta al definirlo en este archivo estamos diciendo que todos los componentes de ese tipo van a compartir dicha definición de estilo.
+Los estilos son usados para crear una colección de definiciones de estilo reutilizable. Es decir, como lo mencionábamos en el tema anterior, si queremos que todos los botones de nuestra aplicación sean exactamente iguales en cuanto estilo se refiere, este estilo lo vamos a definir en un archivo global, por decirlo de alguna forma, llamado Styles. Si te das cuenta al definirlo en este archivo estamos diciendo que todos los componentes de ese tipo van a compartir dicha definición de estilo.
 
-Ahora que sabemos que los estilos son grupos reutilizables de atributos que se pueden aplicar a las vistas que queramos veamos cómo crear nuestro propio estilo.
+Ahora que sabemos que los estilos son grupos reutilizables de atributos que se pueden aplicar a las vistas que queramos, veamos cómo crear nuestro propio estilo.
 
 #### Paso uno: crear un estilo.
 - Abrir **res/values/styles.xml**
@@ -60,7 +60,7 @@ Ahora que sabemos que los estilos son grupos reutilizables de atributos que se p
 <style name="TextAppearance.Title" parent="TextAppearance.MaterialComponents.Headline6">
 </style>
 ```
-Ahora que tenemos definido nuestro estilo es decir nuestro grupo definamos las propiedades que va a afectar este grupo de estilos.
+Ahora que tenemos definido nuestro estilo, es decir nuestro grupo, definamos las propiedades que va a afectar este grupo de estilos.
 
 Para hacerlo tenemos que colocar los atributos que se verán afectados con este grupo de estilos que hemos definido.
 
@@ -71,11 +71,11 @@ Para hacerlo tenemos que colocar los atributos que se verán afectados con este 
 </style>
 ```
 
-Recapitulando textualmente hemos definido al principio un estilo llamado **TextAppearance.Title** y le hemos asignado dos ítems, uno para el tamaño del texto y otro para el color del texto es decir que los componentes visuales que utilicen este estilo se veran afectado en los mismos atributos.
+Recapitulando, hemos definido al principio un estilo llamado **TextAppearance.Title** y le hemos asignado dos ítems, uno para el tamaño del texto y otro para el color del texto. Es decir que los componentes visuales que utilicen este estilo se verán afectado en los mismos atributos.
 
 #### Paso dos: aplicando un estilo.
 
-Ahora para agregar nuestro estilo a un elemento visual tomemos como base el TexView que habíamos definido antes suponiendo que este TexView ya tiene definidos los atributos TextSize y TexColor, de la siguiente forma:
+Ahora, para agregar nuestro estilo a un elemento visual tomemos como base el TexView que habíamos definido antes, suponiendo que este TexView ya tiene definidos los atributos TextSize y TexColor, de la siguiente forma:
 
 ```XML
 <TextView
@@ -85,7 +85,7 @@ Ahora para agregar nuestro estilo a un elemento visual tomemos como base el TexV
 	android:textColor="#AAAAAA" />
 ```
 
-Ahora signamos nuestro estilo a este TextView y veamos como queda:
+Ahora asignamos nuestro estilo a este TextView y veamos como queda:
 
 ```XML
 <TextView
@@ -98,9 +98,9 @@ Como puedes observar el uso de estilos hace mucho más fácil y entendible el di
 
 #### Temas
 
-Los temas se usan para definir colores para toda la aplicación para establecer la fuente predeterminada para toda la aplicación, los temas por naturaleza se aplican a todas las vistas dentro de la aplicación como vistas de texto botones radio buttons etc.
+Los temas se usan para definir colores para toda la aplicación ,para establecer la fuente predeterminada para toda la aplicación. Los temas por naturaleza se aplican a todas las vistas dentro de la aplicación como vistas de texto, botones, radio buttons etc.
 
-Como en el caso anterior de los estilos la definición de nuestro tema está dentro del archivo Styles ubicado en la siguiente ruta **res/values/styles.xml**.
+Como en el caso anterior de los estilos, la definición de nuestro tema está dentro del archivo Styles ubicado en la siguiente ruta **res/values/styles.xml**.
 
 Encontraremos dentro de la etiqueta Resources las definiciones de nuestros estilos y de nuestro tema, por ahora es muy probable que encontremos algo similar a lo siguiente:
 
@@ -118,9 +118,9 @@ Encontraremos dentro de la etiqueta Resources las definiciones de nuestros estil
 </resources>
 ```
 
-Cómo podemos observar nuestra aplicación tiene un tema definido con el nombre **AppTheme** y le estamos indicando que está heredando del tema **Theme.AppCompat.Light.DarkActionBar** el cual es el que está asignado por defecto en el sistema por Android.
+Cómo podemos observar, nuestra aplicación tiene un tema definido con el nombre **AppTheme** y le estamos indicando que está heredando del tema **Theme.AppCompat.Light.DarkActionBar** el cual es el que está asignado por defecto en el sistema por Android.
 
-También nos indica que tipo de modificaciones podemos hacerle al tema por ahora sólo vemos los siguientes:
+También nos indica qué tipo de modificaciones podemos hacerle al tema. Por ahora sólo vemos los siguientes:
 - colorPrimary
 - colorPrimaryDark
 - colorAccent
