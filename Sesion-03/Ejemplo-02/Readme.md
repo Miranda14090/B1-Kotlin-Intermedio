@@ -1,5 +1,5 @@
 
-##Ciclo de vida de un Activity
+## Ciclo de vida de un Activity
 
 ### OBJETIVO
 
@@ -8,6 +8,7 @@
 #### REQUISITOS
 
 1. Haber leído el artículo del ciclo de vida de un activity. [Leer artículo](https://medium.com/@Emmitta/ciclo-de-vida-de-una-actividad-android-f30f8f2d1256)
+
 2.- Haber realizado el [Ejemplo 01](/../../tree/master/Sesion-03/Ejemplo-01) de esta sesión
 
 #### DESARROLLO
@@ -50,13 +51,13 @@ bajo esta función, hacer override de los otros métodos llamados durante el cic
 <details>
         <summary>Solución</summary>
         <p>La respuesta para cada método tiene la siguiente forma: </p>
-        ```
-        override fun onStart(){
-                super.onStart()
-        Toast.makeText(applicationContext,"onStart ejecutado", Toast.LENGTH_SHORT).show()
-        }
-        ```
-        Po ejemplo para onResume(), todo texto del método anterior que diga onStart, debe ser cambiado por onResume. 
+```
+override fun onStart(){
+   super.onStart()
+   Toast.makeText(applicationContext,"onStart ejecutado", Toast.LENGTH_SHORT).show()
+   }
+```
+        <p>Por ejemplo para onResume(), todo texto del método anterior que diga onStart, debe ser cambiado por onResume.</p>
 </details>
 
 
