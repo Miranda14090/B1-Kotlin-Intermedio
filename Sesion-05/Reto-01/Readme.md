@@ -1,4 +1,4 @@
-## Reto 03: Configurando material Design - Kotlin Intermedio
+## Reto 02: Sistema de diseño en Android - Kotlin Intermedio
 
 ### OBJETIVO
 
@@ -14,5 +14,5 @@
 
 Teniendo en cuenta los temas que viste en el ejemplo uno de esta sesión completa satisfactoriamente los siguientes puntos en tu proyecto que tu instructor estás asignado:
 
-- Realiza todas las configuraciones necesarias **Material Design** para incluir en tu proyecto.
-- Una vez que tengas incluido en tu proyecto agrega como prueba a tu actividad principal un **FloatingActionButton (FAB)** que es uno de los componentes más importantes de **Material Design**.
+- Crea un estilo para Titulos y subtitulos el cual modifique el tamaño y color del texto en ambos.
+- Aplica esos estilos a dos elementos de texto en alguna de tus vistas.

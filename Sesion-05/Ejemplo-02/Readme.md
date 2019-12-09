@@ -161,5 +161,5 @@ Para finalizar este ejemplo te dejo una lista de todos los modificadores que pod
 </style>
 ```
 
-Ahora dirígete al ejemplo uno y pongamos a pruéba el conocimiento que acabas de adquirir, exito.
+Ahora dirígete al [Reto 01](/../../tree/master/Sesion-05/Reto-01/) y pongamos a pruéba el conocimiento que acabas de adquirir, exito.
 

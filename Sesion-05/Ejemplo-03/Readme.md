@@ -60,6 +60,6 @@ En el mismo catálogo, por cada componente nos va a indicar la forma de utilizar
       android:layout_width="match_parent"
       android:layout_height="wrap_content"/>
 </com.google.android.material.textfield.TextInputLayout>
-``
+```
 
 Te recomiendo que cada que desees utilizar un nuevo componente de material Design vayas y visites el catálogo que está en el sitio que te acabo de compartir para que sepas de qué forma incluirlo en tus vistas, ahora que ya sabes configurar material Design en tu aplicación y que ya sabes cómo incluir todos sus componentes en tus vistas ve al [Reto 02](/../../tree/master/Sesion-05/Reto-02/) Y completan los puntos que se te piden para que veas como ya va dando forma nuestro proyecto, éxito.
