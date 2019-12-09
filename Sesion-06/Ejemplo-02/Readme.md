@@ -15,7 +15,7 @@
 
 #### RecyclerView
 
-Una de las tareas más importantes de la interfaz de usuario en Android es mostrar elementos en una lista, las listas pueden variar de simples muy complejas, una lista de vistas de texto puede mostrar datos simples, como una lista de compras. Una lista compleja, como una lista de destinos de vacaciones puede mostrar al usuario muchos detalles dentro de una cuadrícula de desplazamiento o con encabezados, puede incluir imágenes incluso botones para acciones determinadas dentro de cada elemento de la lista.
+Una de las tareas más importantes de la interfaz de usuario en Android es mostrar elementos en una lista. Las listas pueden variar de simples a muy complejas. Una lista de vistas de texto puede mostrar datos simples, como una lista de compras. Una lista compleja, como una lista de destinos de vacaciones puede mostrar al usuario muchos detalles dentro de una cuadrícula de desplazamiento o con encabezados, puede incluir imágenes, incluso botones para acciones determinadas dentro de cada elemento de la lista.
 
 Para admitir todos estos casos de uso Android proporciona el **RecyclerView widget**.
 
@@ -23,8 +23,9 @@ Para admitir todos estos casos de uso Android proporciona el **RecyclerView widg
 
 Uno de los más grandes beneficios de utilizar RecyclrView es que es muy eficiente para listas realmente grandes, los siguientes puntos explican lo valioso de este beneficio:
 
-- Éste componente sólo funciona para procesar o dibujar elementos que están actualmente visibles en la pantalla, es decir si recordamos en la lista de compras de la que mencionábamos antes, supongamos que nuestra lista de compras tiene 120 elementos pero nuestra pantalla sólo nos permite mostrar 10 elementos.
-- El recicler view se va encargar de mostrar estos 10 elementos y de gestionar el reciclado de las vistas cuando el usuario se desplaza hacia arriba o hacia abajo, cuando el usuario se desplaza el recicler view recicla la vista que ya no se ve Y le asigna el valor del siguiente elemento que se va a mostrar, en la siguiente ilustración no podemos ver más claro:
+- Este componente sólo funciona para procesar o dibujar elementos que están actualmente visibles en la pantalla, es decir si recordamos en la lista de compras de la que mencionábamos antes, supongamos que nuestra lista de compras tiene 120 elementos pero nuestra pantalla sólo nos permite mostrar 10 elementos.
+
+- El recicler view se va encargar de mostrar estos 10 elementos y de gestionar el reciclado de las vistas cuando el usuario se desplaza hacia arriba o hacia abajo. Cuando el usuario se desplaza el recicler view recicla la vista que ya no se ve y le asigna el valor del siguiente elemento que se va a mostrar, en la siguiente ilustración lo podemos ver más claro:
 
 ![](https://github.com/beduExpert/B1-Kotlin-Intermedio/blob/master/Sesion-06/Ejemplo-02/Images/2.png)
 
@@ -86,7 +87,7 @@ Este diseño va a representar cada elemento de la lista graficamente:
 
 - Un layout manager, este se va a encargar de gestionar la organización de los componentes de la interfaz de usuario en una vista.
 
-Notese que ya lo hemos definido desde nuestro archivo de diseño, asi que para este ejmplo no necesitamos crear otra referencia:
+Nótese que ya lo hemos definido desde nuestro archivo de diseño, así que para este ejemplo no necesitamos crear otra referencia:
 
 ```XML
 <androidx.recyclerview.widget.RecyclerView
@@ -137,9 +138,9 @@ class CustomAdapter(var context: Context, tasks: MutableList<User>): RecyclerVie
 }
 ```
 
-- Un ViewHolder, éste va a contener la información de visualización para mostrar un nuevo elemento o item en el recicler view, este elemento es indispensable para mover eficientemente las vistas en la pantalla, como pudiste observar el ViewHolder forma parte del adaptador y este lo declaramos dentro del mismo.
+- Un ViewHolder, este va a contener la información de visualización para mostrar un nuevo elemento o item en el recicler view, este elemento es indispensable para mover eficientemente las vistas en la pantalla. Como pudiste observar el ViewHolder forma parte del adaptador y este lo declaramos dentro del mismo.
 
-Lo ultimo que queda hacer es conectar todo lo anterior con nuestro recycler view, en la vista donde tenermos nuestro RV colocaremos el sigiente codigo:
+Lo último que queda hacer es conectar todo lo anterior con nuestro recycler view, en la vista donde tenemos nuestro RV colocaremos el sigiente codigo:
 
 ```kotlin
     var users = mutableListOf<User>()
@@ -171,7 +172,7 @@ Es necesario crear primero un recurso de menu en el cual definiremos las opcione
 - Click derecho en la carpeta res -> New/AndroidResourceFile:
 ![](https://github.com/beduExpert/B1-Kotlin-Intermedio/blob/master/Sesion-06/Ejemplo-02/Images/4.png)
 
-Usualmente de define de la siguiente forma:
+Usualmente se define de la siguiente forma:
 
 ```XML
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
@@ -186,7 +187,7 @@ Usualmente de define de la siguiente forma:
 </menu>
 ```
 
-Una vez habiendo definido nuestro menú como lo acabamos de hacer, a continuación veremos la forma de incluir un **BottomNavigationView** en nuestro archivo de vista, ahí mismo le asignaremos el recurso de menú que hemos creado.
+Una vez definido nuestro menú como lo acabamos de hacer, veremos la forma de incluir un **BottomNavigationView** en nuestro archivo de vista, ahí mismo le asignaremos el recurso de menú que hemos creado.
 
 ```XML
 <FrameLayout
@@ -210,4 +211,6 @@ Una vez habiendo definido nuestro menú como lo acabamos de hacer, a continuaci�
 </FrameLayout>
 ```
 
-En la definición de nuestro **BottomNavigationView** vemos algunas de las configuraciones o atributos más importantes para este elemento, ahora que sabemos todo esto vayamos al [Reto 01](/../../tree/master/Sesion-06/Reto-01/) y apliquemos este conocimiento dentro de nuestro proyecto final.
+En la definición de nuestro **BottomNavigationView** vemos algunas de las configuraciones o atributos más importantes para este elemento. 
+
+Ahora que sabemos todo esto vayamos al [Reto 01](/../../tree/master/Sesion-06/Reto-01/) y apliquemos este conocimiento dentro de nuestro proyecto final.
