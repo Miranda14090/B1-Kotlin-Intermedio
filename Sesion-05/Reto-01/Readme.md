@@ -14,5 +14,5 @@
 
 Teniendo en cuenta los temas que viste en el ejemplo 01 completa los siguientes puntos en tu proyecto:
 
-- Crea un estilo para Titulos y subtitulos el cual modifique el tamaño y color del texto en ambos.
+- Crea un estilo para Títulos y subtítulos el cual modifique el tamaño y color del texto en ambos.
 - Aplica esos estilos a dos elementos de texto en alguna de tus vistas.
