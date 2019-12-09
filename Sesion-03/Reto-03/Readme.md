@@ -45,8 +45,8 @@ val button = findViewById<Button>(R.id.button_fragment);
 ```
 
 <details>
-
 	<summary>Solucion</summary>
+	
 ```
 val newFragment = Fragment2() //llamando al nuevo fragmento
 val transaction = supportFragmentManager.beginTransaction() //obteniendo el objeto Transaction
@@ -54,6 +54,7 @@ transaction.replace(android.R.id.content, newFragment) //reemplazando el viejo f
 transaction.addToBackStack(null) //añadiendo la Transacción a un stack
 transaction.commit() //ejecutando los cambios
 ```
+
 </details> 
 
 
