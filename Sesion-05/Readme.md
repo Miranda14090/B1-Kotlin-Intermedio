@@ -2,8 +2,8 @@
 
 ### OBJETIVOS 
 
-- Que el alumno logre crear aplicaciones con vistas fáciles de usar y siguiendo las bases del diseño por propuestas por Google y Android.
-- A partir de esta sesión cinco crear un proyecto final ejemplificando una aplicación para registrar nuestras tareas por hacer o mejor conocida como (TODO List).
+- Crear aplicaciones con vistas fáciles de usar y siguiendo las bases del diseño por propuestas por Google y Android.
+- A partir de esta sesión vamos a crear un proyecto final, ejemplificando una aplicación para registrar nuestras tareas por hacer o mejor conocida como (TO DO List).
 
 ### ORGANIZACION DE LA CLASE 
 
