@@ -2,7 +2,7 @@
 
 ### OBJETIVOS 
 
-- Que el alumno logre crear aplicaciones con vistas fáciles de usar y siguiendo las bases del diseño por propuestas por Google y Android.
+- Crear aplicaciones con vistas fáciles de usar y siguiendo las bases del diseño por propuestas por Google y Android.
 - Conocer la mayoría de los componentes del catálogo de Material Design.
 - Conocer las principales configuraciones que se le pueden realizar a cada componente del catálogo de Material Design.
 
