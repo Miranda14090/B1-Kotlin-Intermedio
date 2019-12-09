@@ -1,27 +1,32 @@
- 
+## Reto 01: Material Components I - Kotlin Intermedio
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks] 
-	
-## Titulo del Ejemplo 
+### OBJETIVO
 
-### OBJETIVO 
+- Aplicar los principios de diseño de Material a la interfaz de usuario de la aplicación.
+- Usar los componentes de material para hacer que tu aplicación luzca impresionante.
 
-- Lo que esperamos que el alumno aprenda 
+### REQUISITOS
 
-#### REQUISITOS 
+1. Tener conocimiento previo sobre Activities, Layouts, Fragments.
+2. Tener conocimiento básico sobre vistas y grupos de vistas para diseñar una interfaz de usuario, en particular RecyclerView.
+3. Saber utilizar los estilos y temas para personalizar el aspecto de tu aplicación.
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+### DESARROLLO
 
-#### DESARROLLO
+Ya que hemos conocido las bases de Material Design y sabemos cuales son sus principales componentes y como utilizarlos, con lo aprendido cumple con los siguientes puntos en tu proyecto:
 
-Agrega las instrucciones generales del ejemplo o reto
+- Diseña las siguientes vistas en un fragmento cada una respectivamente, como Tip recuerda el uso de recycler view y floating action button.
 
-<details>
+![](https://github.com/beduExpert/B1-Kotlin-Intermedio/blob/master/Sesion-06/Reto-01/Images/1.png)
 
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details> 
+![](https://github.com/beduExpert/B1-Kotlin-Intermedio/blob/master/Sesion-06/Reto-01/Images/2.png)
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
+Observa que el RecyclerView ya está configurado y muestra una lista de tareas para la cual tendrás que desarrollar tanto el adaptador como la vista para el Aizen que lo va a representar, y la funcionalidad que ya habíamos visto del RecyclerView.
 
+Adicional a esto si observas cada item de la tabla o lista cuenta con tres elementos un check Box un texto y un botón que representan una entidad en este caso una tarea tendrás que desarrollar la clase que representa esta tarea con esas tres propiedades.
+
+- Haz un layout que cumpla con el diseño del siguiente diálogo (sin incluir los botones) y mantenlo preparado para la siguiente sesión, que es cuando lo usaremos y haremos que el usuario interactúe con él.
+
+![](https://github.com/beduExpert/B1-Kotlin-Intermedio/blob/master/Sesion-06/Reto-01/Images/3.png)
+
+**Exito!**

@@ -1,16 +1,15 @@
-
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]  
-
-## Titulo de la Sesion 
+## Material Design II - Kotlin Intermedio
 
 ### OBJETIVOS 
 
-- Lo que esperamos que el alumno aprenda al finalizar la sesion 
+- Que el alumno logre crear aplicaciones con vistas fáciles de usar y siguiendo las bases del diseño por propuestas por Google y Android.
+- Conocer la mayoría de los componentes del catálogo de Material Design.
+- Conocer las principales configuraciones que se le pueden realizar a cada componente del catálogo de Material Design.
 
-#### ORGANIZACION DE LA CLASE 
+### ORGANIZACION DE LA CLASE 
 
-- Tema que veran en el ejemplo
+- Organización de los temas de la sesión.
 
-	- [Ejemplo 01](Ejemplo-01)
-	- [Reto 01](Reto-01)
-
+	- [Ejemplo 01: Material Components I](/../../tree/master/Sesion-06/Ejemplo-01/)
+	- [Ejemplo 02: Material Components II](/../../tree/master/Sesion-06/Ejemplo-02/)
+	- [Reto 01](/../../tree/master/Sesion-06/Reto-01/)
