@@ -103,7 +103,8 @@ override fun onStop(){
     }
 ```
 
-<p> Caso b): </p>
+	<p> Caso b): </p>
+
 ```
 override fun onResume() {
    super.onResume()
@@ -118,7 +119,8 @@ override fun onStop(){
  }
 ```
 
-<p> Caso c): </p>
+	<p> Caso c): </p>
+
 ```
 override fun onCreate(savedInstanceState: Bundle?) {
    super.onCreate(savedInstanceState)
