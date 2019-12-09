@@ -11,6 +11,5 @@
 - Organización de los temas de la sesión.
 
 	- [Ejemplo 01: Material Components I](/../../tree/master/Sesion-06/Ejemplo-01/)
-	- [Reto 01](/../../tree/master/Sesion-06/Reto-01/)
 	- [Ejemplo 02: Material Components II](/../../tree/master/Sesion-06/Ejemplo-02/)
-	- [Reto 02](/../../tree/master/Sesion-06/Reto-02/)
+	- [Reto 01](/../../tree/master/Sesion-06/Reto-01/)

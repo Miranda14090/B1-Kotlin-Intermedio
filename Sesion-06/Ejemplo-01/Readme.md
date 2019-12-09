@@ -157,4 +157,4 @@ Veras a continuacion que es extremadamente facil usar estos componentes:
     android:layout_height="wrap_content"/>
 ```
 
-Ve al [Ejemplo 02](/../../tree/master/Sesion-06/Reto-01/) Para ver la segunda parte de este tema.
+Ve al [Ejemplo 02](/../../tree/master/Sesion-06/Ejemplo-02/) Para ver la segunda parte de este tema.
