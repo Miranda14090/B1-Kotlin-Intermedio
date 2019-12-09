@@ -13,15 +13,15 @@
 
 ### DESARROLLO
 
-En este ejemplo nos vamos a concentrar en la implementación de los principales y más utilizados componentes de material, vamos a explicar su forma de usarlos los principales atributos de cada uno y el propósito para el que fueron diseñados.
+En este ejemplo nos vamos a concentrar en la implementación de los principales y más utilizados componentes de material. Vamos a explicar su forma de usarlos, los principales atributos de cada uno y el propósito para el que fueron diseñados.
 
 Recuerda que siempre es importante visitar el sitio de [material.io](https://material.io/) para que des un vistazo a toda la documentación.
 
 #### TextView
 
-Un **MaterialTextView** es un derivado de **AppCompatTextView** que muestra texto al usuario, es decir este componente es meramente informativo y sólo va mostrar contenido al usuario sin ser evitable.
+Un **MaterialTextView** es un derivado de **AppCompatTextView** que muestra texto al usuario. Es decir, este componente es meramente informativo y sólo va mostrar contenido al usuario sin ser evitable.
 
-Para incluir un TextView, considera que tenemos son linear layout en nuestro diseño de vista, la forma de agregar uno de estos componentes es como a continuación:
+Para incluir un TextView, considera que tenemos un linear layout en nuestro diseño de vista, la forma de agregar uno de estos componentes es como a continuación:
 
 ```XML
 <LinearLayout
@@ -39,11 +39,11 @@ Para incluir un TextView, considera que tenemos son linear layout en nuestro dis
 
 #### TextField
 
-Un TextField o TextInputEditText es un componente cuyo propósito es proporcionarle al usuario un método de entrada para nuestra aplicación, es decir el usuario puede introducir texto o cualquier tipo de carácter que nosotros indiquemos a nuestra aplicacion.
+Un TextField o TextInputEditText es un componente cuyo propósito es proporcionarle al usuario un método de entrada para nuestra aplicación, es decir el usuario puede introducir texto o cualquier tipo de caracter que nosotros indiquemos a nuestra aplicacion.
 
-Tratándose de este componente es importante saber que tiene que ser incluido dentro de un **TextInputLayout** para poder hacer uso de las animaciones y estilos específicos de material, el componente en expecifico a usar dentro del **TextInputLayout** se llama **TextInputEditText**.
+Tratándose de este componente es importante saber que tiene que ser incluido dentro de un **TextInputLayout** Para poder hacer uso de las animaciones y estilos específicos de material, el componente en expecifico a usar dentro del **TextInputLayout** se llama **TextInputEditText**.
 
-Entonces como el párrafo anterior lo indica para poder incluir un componente de este tipo en nuestra aplicación, lo haremos de la siguiente forma:
+Entonces como el párrafo anterior lo indica, para poder incluir un componente de este tipo en nuestra aplicación, lo haremos de la siguiente forma:
 
 ```XML
 <com.google.android.material.textfield.TextInputLayout
@@ -60,7 +60,7 @@ Entonces como el párrafo anterior lo indica para poder incluir un componente de
 
 ![](https://github.com/beduExpert/B1-Kotlin-Intermedio/blob/master/Sesion-06/Ejemplo-01/Images/2.png)
 
-Algunas de las variaciones de este componente se pueden configurar asignándole estilo a nuestro componente contenedor en este caso **TextInputLayout**, a continuación veamos algunas de las variaciones de las que hablamos:
+Algunas de las variaciones de este componente se pueden configurar asignándole estilo a nuestro componente contenedor, en este caso **TextInputLayout**. A continuación veamos algunas de las variaciones de las que hablamos:
 
 - **Filled Box (Default)**: Tienen un color de fondo sólido y llaman más la atención, especialmente en los diseños en los que el campo está rodeado de otros elementos. Para usar un campo de texto relleno, aplique el siguiente estilo a su TextInputLayout: 
 ```XML
@@ -72,6 +72,7 @@ Para cambiar el color de fondo de un campo de texto relleno, puede establecer el
 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
 ```
 Para cambiar el color y el ancho del trazo de un campo de texto outlined, puede establecer los atributos boxStrokeColory boxStrokeWidthen su TextInputLayout, respectivamente.
+
 - **Height Variations**: TextInputLayout proporciona dos variaciones de altura para campos de texto filled y oulined, standard y dense. Ambos estilos (filled y oulined) tienen por defecto la altura estándar. Para reducir la altura de un TextInputEditText, puede usar un estilo dense, que reducirá el relleno vertical dentro del TextInputEditText. Puede lograr esto aplicando los estilos apropiados a su TextInputLayouty TextInputEditText, dependiendo de si está utilizando un campo de texto filled u outlined:
 ```XML
  style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.Dense"
@@ -81,12 +82,12 @@ Para cambiar el color y el ancho del trazo de un campo de texto outlined, puede 
 
 #### Button
 
-Materi*alButton es un componente personalizable con estilos visuales actualizados. Este componente tiene varios estilos incorporados para admitir diferentes niveles de énfasis, ya que normalmente cualquier interfaz de usuario contendrá algunos botones diferentes para indicar diferentes acciones. Estos niveles de énfasis incluyen:
+MaterialButton es un componente personalizable con estilos visuales actualizados. Este componente tiene varios estilos incorporados para admitir diferentes niveles de énfasis, ya que normalmente cualquier interfaz de usuario contendrá algunos botones diferentes para indicar diferentes acciones. Estos niveles de énfasis incluyen:
 
 - **raised button**: un MaterialButton rectangular que se levanta y muestra reacciones de de color al ser presionado.
 - **unelevated button**: un botón coloreado que muestra reacciones de de color al ser presionado pero no se levanta.
 
-Este componente proporciona una implementacion completa de MaterialDesign, para usarlo lo vamos a incluir de la siguiente forma:
+Este componente proporciona una implementación completa de MaterialDesign, para usarlo lo vamos a incluir de la siguiente forma:
 
 ![](https://github.com/beduExpert/B1-Kotlin-Intermedio/blob/master/Sesion-06/Ejemplo-01/Images/3.png)
 
@@ -147,7 +148,7 @@ Para poder usar este componente es necesario incluirlo en un **RadoGroup** que e
 
 Un CheckBox representa un botón con dos estados, seleccionado y no seleccionado. A diferencia de los RadioButtons, los cambios en los estados de una casilla de verificación no suelen afectar a otras casillas de verificación. Una casilla de verificación es un botón cuadrado redondeado con una marca para indicar su estado actual.
 
-Veras a continuacion que es extremadamente facil usar estos componentes:
+Verás a continuacion que es extremadamente facil usar estos componentes:
 
 ![](https://github.com/beduExpert/B1-Kotlin-Intermedio/blob/master/Sesion-06/Ejemplo-01/Images/5.png)
 
