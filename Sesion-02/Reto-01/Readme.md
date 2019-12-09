@@ -2,7 +2,7 @@
 
 ### OBJETIVO 
 
-- El alumno moficara el ejemplo de **Hola Mundo Kotlin** , para mostrar un mensaje diferente en pantalla
+- Modificar el ejemplo de **Hola Mundo Kotlin** , para mostrar un mensaje diferente en pantalla
 
 #### REQUISITOS 
 

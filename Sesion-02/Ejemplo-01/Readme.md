@@ -1,7 +1,7 @@
 ## Sesion 01 - Ejemplo 01
 
 ### OBJETIVO 
- - El alumno creará su primera apliación en Android Studio configurando Kotlin como el lenguaje de programación y ejecutara en un dispositivo virtual. 
+ - Crear la primera apliación en Android Studio configurando Kotlin como el lenguaje de programación y ejecutarla en un dispositivo virtual. 
 
 #### REQUISITOS 
 
